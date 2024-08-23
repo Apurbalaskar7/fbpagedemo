@@ -1,0 +1,139 @@
+@media screen and (min-width:481px) {
+    #phone_view{
+        display: none;
+    }
+    .position {
+        position: absolute;
+    }
+    
+    #heading {
+        border: 2px solid black;
+        height: 100px;
+        background-color: #3b5898;
+    }
+    
+    #facebook {
+        color: rgb(255, 255, 255);
+        margin-top: 45px;
+        margin-left: 100px;
+        font-family: 'Klavika', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    
+    #login_details {
+        margin-left: 1000px;
+        margin-top: 30px;
+    }
+    
+    #pic {
+        height: 200px;
+        width: 470px;
+        margin-left: 150px;
+        margin-top: 110px;
+    }
+    
+    #box {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        width: 500px;
+        margin-left: 150px;
+        margin-top: 50px;
+        color: #415f91;
+    }
+    
+    #create_account {
+        margin-left: 50%;
+    }
+    #create_account span h1{
+        margin-left: 5px;
+        width: 370px;
+    }
+    #create_account span span{
+        margin-left: 7px;
+        width: 400px;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+    #sign_up{
+        margin-top: 120px;
+    }
+    #sign_up input{
+        padding:5px;
+        margin: 8px;
+        font-size: 18px;
+        border-radius: 7px;
+        border-color: gray;
+    }
+    #sign_up_info{
+        margin-left: 51%;
+        margin-top: 300px;
+    }
+    #gender{
+        font-size: 18px;
+    }
+    #sign_up_button{
+        margin-top: 30px;
+        font-size: 20px;
+        height: 35px;
+        width: 200px;
+        background-color: #5a9147;
+        border-radius: 7px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+@media  screen and (max-width:480px) {
+    #laptop_view{
+        display: none;
+    }
+    .position {
+        position: absolute;
+    }
+
+    #pic {
+        margin-top: 30px;
+        height: 300px;
+        width: 500px
+    }
+
+    #box {
+        margin-left: 80px;
+        margin-top: 380px;
+    }
+    .equal_spacing{
+        margin-bottom: 15px;
+        font-size: 20px;
+        border-style: none;
+        
+    }
+    #email{
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    #password{
+        width: 100%;
+        border-bottom: 2px solid gray;
+    }
+    #login_button{
+        width: 100%;
+        height: 40px;
+        border-style: none;
+        background-color: #00008a;
+        color: white;
+    }
+    #forgotten_password{
+        margin-left: 80px;
+        text-decoration: none;
+        color: #00008a;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #new_account_create{
+        height: 50px;
+        width: 100%;
+        background-color: #018100;
+        color: white;
+        border-style: none;
+    }
+}
